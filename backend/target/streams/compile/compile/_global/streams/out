@@ -1,0 +1,44 @@
+[error] -- [E040] Syntax Error: /home/shahd/chess/backend/src/main/scala/chess/view/tui/ChessTUI.scala:38:6 
+[error] 38 |      case GameEvent.GameStarted(board) =>
+[error]    |      ^^^^
+[error]    |      '{' expected, but 'case' found
+[error] -- [E103] Syntax Error: /home/shahd/chess/backend/src/main/scala/chess/view/tui/ChessTUI.scala:58:2 
+[error] 58 |  private def posToNotation(pos: Position): String =
+[error]    |  ^^^^^^^
+[error]    |  this kind of statement is not allowed here
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E006] Not Found Error: /home/shahd/chess/backend/src/main/scala/chess/view/tui/ChessTUI.scala:42:28 
+[error] 42 |        println(s"✓ Move: ${posToNotation(from)} → ${posToNotation(to)}")
+[error]    |                            ^^^^^^^^^^^^^
+[error]    |                            Not found: posToNotation
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E006] Not Found Error: /home/shahd/chess/backend/src/main/scala/chess/view/tui/ChessTUI.scala:42:53 
+[error] 42 |        println(s"✓ Move: ${posToNotation(from)} → ${posToNotation(to)}")
+[error]    |                                                     ^^^^^^^^^^^^^
+[error]    |                                                Not found: posToNotation
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E006] Not Found Error: /home/shahd/chess/backend/src/main/scala/chess/view/tui/ChessTUI.scala:59:15 
+[error] 59 |    s"${('a' + pos.x).toChar}${pos.y + 1}"
+[error]    |               ^^^
+[error]    |               Not found: pos
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E006] Not Found Error: /home/shahd/chess/backend/src/main/scala/chess/view/tui/ChessTUI.scala:59:31 
+[error] 59 |    s"${('a' + pos.x).toChar}${pos.y + 1}"
+[error]    |                               ^^^
+[error]    |                               Not found: pos
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[warn] -- Warning: /home/shahd/chess/backend/src/main/scala/chess/view/tui/ChessTUI.scala:36:2 
+[warn] 36 |  def update(event: GameEvent): Unit =
+[warn]    |  ^
+[warn]    |  Line is indented too far to the left, or a `}` is missing
+[warn] -- Warning: /home/shahd/chess/backend/src/main/scala/chess/view/tui/ChessTUI.scala:37:4 
+[warn] 37 |    event match
+[warn]    |    ^
+[warn]    |    Line is indented too far to the left, or a `}` is missing
+[warn] two warnings found
+[error] 6 errors found

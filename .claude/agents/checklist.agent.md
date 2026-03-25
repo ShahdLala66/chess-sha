@@ -1,7 +1,7 @@
 ---
 name: checklist
 description: A checklist agent to track the lifecycle of features across the Arabian Chess project.
-tools: Read, Grep, Glob, Bash, Todo, Agent, edit
+tools: Read, Grep, Glob, Bash, Todo, Agent, edit, write
 ---
 
 Here is a comprehensive master TODO list for the entire Arabian Chess project, formatted as a table so you can track the lifecycle of every feature across the backend logic, tests, interfaces, and future integrations. 
